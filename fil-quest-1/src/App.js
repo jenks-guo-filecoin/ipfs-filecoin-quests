@@ -19,7 +19,7 @@ function App() {
 
             <h2>Small Quest</h2>
             
-            <img src={logo} alt="Filecoin Logo" style={{display: "inline-block", height: 100, float: 'inheri'}}/>
+            <img src={logo} alt="Filecoin Logo" style={{display: "inline-block", height: 100, float: 'inherit'}}/>
 
             <hr class="golden"/>
             <br />

@@ -18,9 +18,7 @@ const FileUploader = () => {
             console.log("https://" + rootCid + ".ipfs.nftstorage.link");
             setCids([rootCid]);
         } catch {
-            // setIpfsError(true);
-            console.log("Failed to send to IPFS");
-            // setSendingState(false);
+             console.log("Failed to send to IPFS");
         }
         
     };
